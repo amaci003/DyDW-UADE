@@ -1,0 +1,66 @@
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+    
+    padding: 20px;
+    color: rgb(94, 59, 59);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Italiana", serif;
+}
+/*     background-color: #EEDCD3;
+    text-align: center;
+    color: rgb(94, 59, 59);
+    font-family: "Italiana", serif; */
+.tabla {
+    display: none;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tabla th, .tabla td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.botones label {
+    background-color: #EEDCD3;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+.botones label:hover {
+    background-color: rgb(238, 187, 187);
+}
+
+#Canciones:checked ~ .contenido #tabla1,
+#Pochis:checked ~ .contenido #tabla2,
+#Series:checked ~ .contenido #tabla3 {
+    display: table;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+
+
+
+
+/* ------------------ */
+.img-tablas{
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.img-tablas:hover{
+    transform: scale(1.08);
+}
