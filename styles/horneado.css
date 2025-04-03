@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+}
+
+input {
+    display: none; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: none;
+    cursor: pointer;
+}
+
+#img54:checked ~ .image-container #img54-label,
+#img55:checked ~ .image-container #img55-label,
+#img56:checked ~ .image-container #img56-label,
+#img57:checked ~ .image-container #img57-label,
+#img58:checked ~ .image-container #img58-label,
+#img59:checked ~ .image-container #img59-label,
+#img60:checked ~ .image-container .pizza-amasada,
+#img60:checked ~ .image-container .boton-sigamos {
+    display: block;
+}
+
+.image img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-amasada {
+    display: none;
+    font-size: 24px;
+    margin-top: -150px;
+}
+
+.boton-sigamos {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #EEDCD3;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.boton-sigamos:hover {
+    background-color: rgb(238, 187, 187);
+}

@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 400px;
+  }
+  
+  input {
+    display: none; 
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: none;
+    cursor: pointer;
+  }
+  
+
+  #img0:checked ~ .image-container #img0-label,
+  #img1:checked ~ .image-container #img1-label,
+  #img2:checked ~ .image-container #img2-label,
+  #img3:checked ~ .image-container #img3-label,
+  #img4:checked ~ .image-container #img4-label,
+  #img5:checked ~ .image-container #img5-label,
+  #img6:checked ~ .image-container #img6-label,
+/*   #img7:checked ~ .image-container #img7-label, */
+  #img8:checked ~ .image-container #img8-label,
+  #img9:checked ~ .image-container #img9-label,
+  #img10:checked ~ .image-container #img10-label,
+  #img11:checked ~ .image-container #img11-label,
+  #img12:checked ~ .image-container #img12-label,
+  #img13:checked ~ .image-container #img13-label,
+  #img14:checked ~ .image-container #img14-label,
+  #img15:checked ~ .image-container #img15-label,
+  #img16:checked ~ .image-container #img16-label,
+  #img17:checked ~ .image-container #img17-label,
+  #img18:checked ~ .image-container #img18-label,
+  #img19:checked ~ .image-container .pizza-amasada,
+  #img19:checked ~ .image-container .boton-sigamos {
+    display: block;
+  }
+  
+  .image img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+.pizza-amasada {
+    display: none;
+    font-size: 24px;
+    margin-top: -150px;
+  }
+
+  .boton-sigamos {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  #EEDCD3;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.boton-sigamos:hover {
+    background-color: rgb(238, 187, 187);
+}
+
+  

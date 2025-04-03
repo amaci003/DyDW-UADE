@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+}
+
+input {
+  display: none;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+
+.image {
+  display: none;
+  cursor: pointer;
+}
+
+#img20:checked ~ .image-container #img20-label,
+#img21:checked ~ .image-container #img21-label,
+#img22:checked ~ .image-container #img22-label,
+#img23:checked ~ .image-container #img23-label,
+#img24:checked ~ .image-container #img24-label,
+#img25:checked ~ .image-container #img25-label,
+#img26:checked ~ .image-container #img26-label,
+#img27:checked ~ .image-container #img27-label,
+#img28:checked ~ .image-container #img28-label,
+#img29:checked ~ .image-container #img29-label,
+#img30:checked ~ .image-container #img30-label,
+#img31:checked ~ .image-container #img31-label,
+#img32:checked ~ .image-container #img32-label,
+#img33:checked ~ .image-container #img33-label,
+#img34:checked ~ .image-container #img34-label,
+#img35:checked ~ .image-container #img35-label,
+#img36:checked ~ .image-container #img36-label,
+#img37:checked ~ .image-container #img37-label,
+#img38:checked ~ .image-container #img38-label,
+#img39:checked ~ .image-container #img39-label,
+#img40:checked ~ .image-container #img40-label,
+#img41:checked ~ .image-container #img41-label,
+#img42:checked ~ .image-container #img42-label,
+#img43:checked ~ .image-container #img43-label,
+#img44:checked ~ .image-container #img44-label,
+#img45:checked ~ .image-container #img45-label,
+#img46:checked ~ .image-container #img46-label,
+#img47:checked ~ .image-container #img47-label,
+#img48:checked ~ .image-container #img48-label,
+#img49:checked ~ .image-container #img49-label,
+#img50:checked ~ .image-container #img50-label,
+#img51:checked ~ .image-container #img51-label,
+#img52:checked ~ .image-container #img52-label,
+#img53:checked ~ .image-container .pizza-amasada,
+#img53:checked ~ .image-container .boton-sigamos {
+  display: block;
+}
+
+.image img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-amasada {
+  display: none;
+  font-size: 24px;
+  margin-top: -150px;
+}
+
+.boton-sigamos {
+  display: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #EEDCD3;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.boton-sigamos:hover {
+  background-color: rgb(238, 187, 187);
+}
