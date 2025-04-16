@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    height: 400px;
+  }
+  
+  .sidebar {
+    width: 150px;
+    background-color: #EEDCD3;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    border: none; /* Para quitar bordes */
+  }
+  
+  /* Ocultar los radio buttons */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  /* Mostrar solo el video correspondiente al radio seleccionado */
+  #video1:checked ~ .content #v1,
+  #video2:checked ~ .content #v2,
+  #video3:checked ~ .content #v3,
+  #video4:checked ~ .content #v4,
+  #video5:checked ~ .content #v5,
+  #video6:checked ~ .content #v6,
+  #video7:checked ~ .content #v7,
+  #video8:checked ~ .content #v8,
+  #video9:checked ~ .content #v9,
+  #video10:checked ~ .content #v10 {
+    display: block;
+  }
+  
