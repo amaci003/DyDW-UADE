@@ -33,15 +33,14 @@
     width: 100%;
     height: 100%;
     display: none;
-    border: none; /* Para quitar bordes */
+    border: none; 
   }
   
-  /* Ocultar los radio buttons */
+  
   input[type="radio"] {
     display: none;
   }
   
-  /* Mostrar solo el video correspondiente al radio seleccionado */
   #video1:checked ~ .content #v1,
   #video2:checked ~ .content #v2,
   #video3:checked ~ .content #v3,
